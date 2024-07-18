@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    max-width: 1440px;
+}
+
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.7rem;
+    align-items: center;
+}
+.website-logo-container{
+    text-decoration: none;
+}
+.website-logo{
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-name{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    font-size: 1.8rem;
+}
+.home{
+    background-color: #E6533C;
+    border-radius: 20px;
+}
+
+
+/* head container */
+
+.head-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.head-title{
+    font-size: 7.8rem;
+    margin-bottom: 28px;
+}
+.head-details{
+    width: 520px;
+}
+.head-description{
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 28px;
+
+}
+
+.join-btn , .download-btn{
+    background-color: #E6533C;
+    color: white;
+    border-radius: 35px;
+    border: none;
+    padding: 1.6rem 4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.download-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 14px;
+}
