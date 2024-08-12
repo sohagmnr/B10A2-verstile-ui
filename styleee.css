@@ -1,0 +1,225 @@
+body,
+header,
+footer {
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: rgba(255, 255, 255, 1);
+}
+
+header,
+footer .logo {
+  width: 142px;
+  height: 72px;
+  background-image: url(logo.png);
+}
+
+section,
+article,
+aside {
+  margin: 2rem;
+}
+
+article img,
+aside img {
+  object-fit: cover;
+}
+
+header .title,
+section .title,
+article .title,
+aside .title {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  color: white;
+}
+
+header .paragraph,
+section .paragraph,
+article .paragraph,
+aside .paragraph {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container .logo {
+  width: 142px;
+  height: 72px;
+  background-image: url(logo.png);
+}
+
+footer .container .title {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .container .link {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .container .copyright {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Shorthand for border-radius */
+:rounder { border-radius 50% }
+
+/* Shorthand for grid-template-areas */
+:grid-template-areas {
+  grid-template-areas: <areas>;
+}
+
+/* Minifying the CSS for smaller file size */
+minify {
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: rgba(255, 255, 255, 1);
+}
+
+minify header,
+minify footer .container {
+  background-image: url(logo.png);
+  width: 142px;
+  height: 72px;
+}
+
+minify header .title,
+minify section .title,
+minify article .title,
+minify aside .title {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  color: white;
+}
+
+minify header .paragraph,
+minify section .paragraph,
+minify article .paragraph,
+minify aside .paragraph {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+minify footer .container .logo {
+  width: 142px;
+  height: 72px;
+  background-image: url(logo.png);
+}
+
+minify footer .container .title {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+minify footer .container .link {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+minify footer .container .copyright {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Shorthand for border-radius */
+:rounder {
+  border-radius: 50%
+}
+
+/* Shorthand for grid-template-areas */
+:grid-template-areas {
+  grid-template-areas: <areas>;
+}
+
+/* Minifying the CSS for smaller file size */
+minify {
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: rgba(255, 255, 255, 1);
+}
+
+minify header,
+minify footer .container {
+  background-image: url(logo.png);
+  width: 142px;
+  height: 72px;
+}
+
+minify header .title,
+minify section .title,
+minify article .title,
+minify aside .title {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  color: white;
+}
+
+minify header .paragraph,
+minify section .paragraph,
+minify article .paragraph,
+minify aside .paragraph {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+minify footer .container .logo {
+  width: 142px;
+  height: 72px;
+  background-image: url(logo.png);
+}
+
+minify footer .container .title {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+minify footer .container .link {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+minify footer .container .copyright {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Shorthand for border-radius */
+:rounder {
+  border-radius: 50%
+}
+
+/* Shorthand for grid-template-areas */
+:grid-template-areas {
+  grid-template-areas: <areas>;
+}d
