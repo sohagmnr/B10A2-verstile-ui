@@ -243,6 +243,57 @@ main{
     text-align: center;
 }
 
+/* calculator */
+.calculator{
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+}
+.calculator-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.9rem;
+    margin-bottom: 52px;
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+.calculation{
+    max-width: 577px;
+    
+}
+th{
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.input-row{
+    display: flex;
+}
+.input-box{
+    padding: 12px 40px 12px 20px;
+    color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 1rem;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.bmi-cal{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.bmi-des{
+    margin-bottom: 34px;
+}
+form{
+    margin-bottom: 34px;
+}
 /* section 6 */
 
 
@@ -251,6 +302,7 @@ main{
     flex-direction: column;
     align-items: center;
     margin-bottom: 88px;
+    margin-top: 88px;
     margin-inline: 3%;
 }
 .section-6-details-container{
@@ -366,6 +418,12 @@ main{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+
+    .calculator-container{
+        gap: 20px;
+        flex-direction: column;
+        margin: 5% 2%;
+    }
 }
 
 /* mobile screen */
@@ -410,6 +468,11 @@ main{
     }
     .footer-container{
         flex-direction: column;
+    }
+    .calculator-container{
+        gap: 20px;
+        flex-direction: column;
+        margin: 5% 2%;
     }
 }
 
