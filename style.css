@@ -58,7 +58,9 @@ main{
     background-color: #E6533C;
     border-radius: 20px;
 }
-
+.toggle_btn{
+    display: none;
+}
 
 /* head container */
 
@@ -385,7 +387,6 @@ form{
     opacity: .3;
 }
 
-
 /* media query */
 
 /* tablet screen */
@@ -422,7 +423,7 @@ form{
     .calculator-container{
         gap: 20px;
         flex-direction: column;
-        margin: 5% 2%;
+        margin: 5% auto;
     }
 }
 
@@ -472,8 +473,17 @@ form{
     .calculator-container{
         gap: 20px;
         flex-direction: column;
-        margin: 5% 2%;
+        margin: 5% auto;
     }
+    .menu{
+        display: none;
+    }
+    .toggle_btn{
+        display: block;
+        align-items: self-end;
+
+    }
+    
 }
 
 
